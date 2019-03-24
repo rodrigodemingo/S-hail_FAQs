@@ -2,17 +2,28 @@
 .bg-primary {
   background-color: #4b95dc !important;
 }
-.card-header,
-a {
-text-decoration: none;
-color: #000;
-}
-a:hover, a:active, a:focus {
-  text-decoration: none;
-  color: #4b95dc;
-}
 
-/* CARD ANIMATION */
+a,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: #757575;
+}
+/* SEARCH */
+input.form-control {
+  margin-left: 55px !important;
+  margin-right: 55px !important;
+}
+/* CARD */
+h5.card-header a {
+  color: #000;
+}
+.card-header {
+  padding: 1rem;
+  background: none;
+  /* border-bottom: none; */
+}
 .card-header i.material-icons {
   transition: 0.3s transform ease-in-out;
   transform: rotate(180deg);
