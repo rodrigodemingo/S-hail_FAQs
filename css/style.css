@@ -3,16 +3,20 @@
   background-color: #4b95dc !important;
 }
 .card-header,
-a, a:hover, a:active, a:focus {
+a {
+text-decoration: none;
+color: #000;
+}
+a:hover, a:active, a:focus {
   text-decoration: none;
-  color: #000;
+  color: #4b95dc;
 }
 
 /* CARD ANIMATION */
 .card-header i.material-icons {
   transition: 0.3s transform ease-in-out;
   transform: rotate(180deg);
-  color: #757575;
+  color: #4b95dc;
 }
 .card-header .collapsed i.material-icons {
   transform: rotate(0deg);
