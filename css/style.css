@@ -1,0 +1,7 @@
+.card-header i.material-icons {
+  transition: 0.3s transform ease-in-out;
+  transform: rotate(180deg);
+}
+.card-header .collapsed i.material-icons {
+  transform: rotate(0deg);
+}
