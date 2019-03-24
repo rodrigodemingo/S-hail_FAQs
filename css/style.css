@@ -1,7 +1,38 @@
+/* COLORS */
+.bg-primary {
+  background-color: #4b95dc !important;
+}
+.card-header,
+a, a:hover, a:active, a:focus {
+  text-decoration: none;
+  color: #000;
+}
+
+/* CARD ANIMATION */
 .card-header i.material-icons {
   transition: 0.3s transform ease-in-out;
   transform: rotate(180deg);
+  color: #757575;
 }
 .card-header .collapsed i.material-icons {
   transform: rotate(0deg);
+  color: #d7d7d7;
+}
+
+/* CARDS */
+.card {
+  break-inside: avoid;
+  /* padding: 24px; */
+  border: 1px solid #d3ddde;
+  border-radius: 4px;
+  box-shadow: 4px 4px 10px #d3ddde;
+  margin: 15px;
+}
+.card-body {
+  padding: 0;
+}
+.list-group-item {
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
 }
