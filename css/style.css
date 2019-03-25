@@ -10,10 +10,18 @@ a:focus {
   text-decoration: none;
   color: #757575;
 }
-/* SEARCH */
+
+/* HEADER */
+.logo {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+}
+/* SEARCH BAR */
 input.form-control {
   margin-left: 55px !important;
   margin-right: 55px !important;
+  margin-bottom: 15px;
 }
 /* CARD */
 h5.card-header a {
