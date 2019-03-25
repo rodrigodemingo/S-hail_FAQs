@@ -55,8 +55,6 @@ h5.card-header a {
   transform: rotate(0deg);
   color: #d7d7d7;
 }
-
-/* CARDS */
 .card {
   break-inside: avoid;
   /* padding: 24px; */
@@ -72,4 +70,11 @@ h5.card-header a {
   border-left: none;
   border-right: none;
   border-bottom: none;
+}
+/* ******************** */
+/* QUESTIONS PAGE */
+/* ******************** */
+.back-button {
+  font-size: 1.3rem;
+  color: #000;
 }
