@@ -23,6 +23,9 @@ input.form-control {
   margin-right: 10%;
   margin-bottom: 15px;
 }
+.search-icon {
+  color: #757575;
+}
 /* CARD */
 h5.card-header a {
   color: #000;
