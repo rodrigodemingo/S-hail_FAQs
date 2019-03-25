@@ -19,8 +19,8 @@ a:focus {
 }
 /* SEARCH BAR */
 input.form-control {
-  margin-left: 55px !important;
-  margin-right: 55px !important;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-bottom: 15px;
 }
 /* CARD */
@@ -35,7 +35,7 @@ h5.card-header a {
 .card-header i.material-icons {
   transition: 0.3s transform ease-in-out;
   transform: rotate(180deg);
-  color: #4b95dc;
+  color: #757575;
 }
 .card-header .collapsed i.material-icons {
   transform: rotate(0deg);
