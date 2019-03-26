@@ -1,10 +1,14 @@
+/* ************************ */
+/* ARABIC CSS STYLES */
+/* ************************ */
+
 /* COLORS */
 .bg-primary {
   background-color: #2298e1 !important;
 }
 
-.pull-right {
-  float: right;
+.pull-left {
+  float: left;
 }
 
 a,
@@ -69,6 +73,7 @@ h5.card-header a {
   border-radius: 4px;
   box-shadow: 4px 4px 10px #d3ddde;
   margin: 15px;
+  text-align: right;
 }
 .card-body {
   padding: 0;
@@ -88,4 +93,21 @@ h5.card-header a {
 .back-button {
   font-size: 1.3rem;
   color: #000;
+}
+
+/* ******************** */
+/* ADDING ARABIC CSS BELOW */
+/* ******************** */
+
+h4 span {
+  top: -5px;
+  position: relative;
+}
+
+input {
+  direction: rtl;
+}
+
+.pull-right {
+  float: right;
 }
