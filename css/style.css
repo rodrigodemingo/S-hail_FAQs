@@ -41,6 +41,9 @@ a:focus {
 ul {
   padding: 0;
 }
+.card-header:first-child {
+  border-bottom: none;
+}
 h5.card-header a {
   color: #000;
 }
