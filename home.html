@@ -16,261 +16,272 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
   </head>
-  <body>
+  <body id="faqList">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
       <div class="logo"><img src="images/logo.svg" alt="" /></div>
       <div class="input-group m-2">
         <div class="input-group-prepend">
           <span class="input-group-text no-border" id="basic-text1"><i class="fas fa-search text-dark" aria-hidden="true"></i></span>
         </div>
-        <input class="form-control no-border" type="text" placeholder="Search here..." aria-label="Search" />
+        <input class="search form-control no-border" type="search" placeholder="Search here..." aria-label="Search" />
       </div>
     </nav>
-    <div id="accordion" role="tablist" aria-multiselectable="true">
-      <!-- CARD 1 -->
-      <div class="card">
-        <h5 class="card-header" role="tab" id="headingOne">
-          <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
-            <!-- <i class="material-icons pull-right">arrow_drop_down_circle</i> -->
-            <!-- CARD TITLE -->
-            Login / Register?
-          </a>
-        </h5>
-        <!-- QUESTIONS OUTSIDE CARD -->
-        <ul class="list-group">
-          <li class="list-group-item"><a class="d-block" href="./Login_How do I register.html">How do I register?</a></li>
-          <li class="list-group-item"><a class="d-block" href="">Why should I login?</a></li>
-        </ul>
-      </div>
-      <!-- CARD 2 -->
-      <div class="card">
-        <h5 class="card-header" role="tab" id="headingTwo">
-          <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            <i class="material-icons pull-right">arrow_drop_down_circle</i>
-            <!-- CARD TITLE -->
-            Trip Planner
-          </a>
-        </h5>
-        <!-- QUESTIONS OUTSIDE CARD -->
-        <ul class="list-group">
-          <li class="list-group-item"><a class="d-block" href="">How can I plan my journey?</a></li>
-          <li class="list-group-item"><a class="d-block" href="">How can I store my locations?</a></li>
-        </ul>
-        <!-- QUESTIONS INSIDE CARD -->
-        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-          <div class="card-body">
-            <ul class="list-group">
-              <li class="list-group-item"><a class="d-block" href="">How can I store trips as favorites?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">How can I select/deselect certain transport modes?</a></li>
-            </ul>
+    <div class="container-fluid">
+      <ul class="list" id="accordion" role="tablist" aria-multiselectable="true">
+        <!-- CARD 1 -->
+        <li class="card">
+          <h5 class="card-header category" role="tab" id="headingOne">
+            <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
+              <!-- CARD TITLE -->
+              Login / Register?
+            </a>
+          </h5>
+          <!-- QUESTIONS OUTSIDE CARD -->
+          <ul class="list-group">
+            <li class="list-group-item question"><a class="d-block" href="./Login_How do I register.html">How do I register?</a></li>
+            <li class="list-group-item question"><a class="d-block" href="">Why should I login?</a></li>
+          </ul>
+        </li>
+        <!-- CARD 2 -->
+        <div class="card">
+          <h5 class="card-header category" role="tab" id="headingTwo">
+            <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <i class="material-icons pull-right">arrow_drop_down_circle</i>
+              <!-- CARD TITLE -->
+              Trip Planner
+            </a>
+          </h5>
+          <!-- QUESTIONS OUTSIDE CARD -->
+          <ul class="list-group">
+            <li class="list-group-item question"><a class="d-block" href="">How can I plan my journey?</a></li>
+            <li class="list-group-item question"><a class="d-block" href="">How can I store my locations?</a></li>
+          </ul>
+          <!-- QUESTIONS INSIDE CARD -->
+          <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="card-body">
+              <ul class="list-group">
+                <li class="list-group-item question"><a class="d-block" href="">How can I store trips as favorites?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">How can I select/deselect certain transport modes?</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- CARD 3 -->
-      <div class="card">
-        <h5 class="card-header" role="tab" id="headingThree">
-          <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            <i class="material-icons pull-right">arrow_drop_down_circle</i>
-            <!-- CARD TITLE -->
-            Nearby
-          </a>
-        </h5>
-        <!-- QUESTIONS OUTSIDE CARD -->
-        <ul class="list-group">
-          <li class="list-group-item"><a class="d-block" href="">What is the Nearby feature?</a></li>
-          <li class="list-group-item"><a class="d-block" href="">Why can I not see the point of interest I am looking for?</a></li>
-        </ul>
-        <!-- QUESTIONS INSIDE CARD -->
-        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-          <div class="card-body">
-            <ul class="list-group">
-              <li class="list-group-item"><a class="d-block" href="">How can I see my current location?</a></li>
-            </ul>
+        <!-- CARD 3 -->
+        <div class="card">
+          <h5 class="card-header category" role="tab" id="headingThree">
+            <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <i class="material-icons pull-right">arrow_drop_down_circle</i>
+              <!-- CARD TITLE -->
+              Nearby
+            </a>
+          </h5>
+          <!-- QUESTIONS OUTSIDE CARD -->
+          <ul class="list-group">
+            <li class="list-group-item question"><a class="d-block" href="">What is the Nearby feature?</a></li>
+            <li class="list-group-item question"><a class="d-block" href="">Why can I not see the point of interest I am looking for?</a></li>
+          </ul>
+          <!-- QUESTIONS INSIDE CARD -->
+          <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="card-body">
+              <ul class="list-group">
+                <li class="list-group-item question"><a class="d-block" href="">How can I see my current location?</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- CARD 4 -->
-      <div class="card">
-        <h5 class="card-header" role="tab" id="headingFour">
-          <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            <i class="material-icons pull-right">arrow_drop_down_circle</i>
-            <!-- CARD TITLE -->
-            Taxi / Limo Booking
-          </a>
-        </h5>
-        <!-- QUESTIONS OUTSIDE CARD -->
-        <ul class="list-group">
-          <li class="list-group-item"><a class="d-block" href="">How do I book a Taxi / Limo for now?</a></li>
-          <li class="list-group-item"><a class="d-block" href="">How do I book a Taxi for a later point in time?</a></li>
-        </ul>
-        <!-- QUESTIONS INSIDE CARD -->
-        <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
-          <div class="card-body">
-            <ul class="list-group">
-              <li class="list-group-item"><a class="d-block" href="">How can I cancel a booked Taxi/Limo?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">How do I book an Uber and Careem for now?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">How do I book an Uber and Careem for a later point in time?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">How can I save a trips as favourites?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">Is there a minimum fare on Taxi trips?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">How is the Taxi fare estimate displayed on the app calculated?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">What fare is charged as a starting metre?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">What rate is the charge rate per distance (kilometer charge)?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">Will I be responsible for paying Salik charges when the Taxi driver passes through Salik toll gates?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">What additional charges are added to the Taxi fare?</a></li>
-            </ul>
+        <!-- CARD 4 -->
+        <div class="card">
+          <h5 class="card-header category" role="tab" id="headingFour">
+            <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <i class="material-icons pull-right">arrow_drop_down_circle</i>
+              <!-- CARD TITLE -->
+              Taxi / Limo Booking
+            </a>
+          </h5>
+          <!-- QUESTIONS OUTSIDE CARD -->
+          <ul class="list-group">
+            <li class="list-group-item question"><a class="d-block" href="">How do I book a Taxi / Limo for now?</a></li>
+            <li class="list-group-item question"><a class="d-block" href="">How do I book a Taxi for a later point in time?</a></li>
+          </ul>
+          <!-- QUESTIONS INSIDE CARD -->
+          <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="card-body">
+              <ul class="list-group">
+                <li class="list-group-item question"><a class="d-block" href="">How can I cancel a booked Taxi/Limo?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">How do I book an Uber and Careem for now?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">How do I book an Uber and Careem for a later point in time?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">How can I save a trips as favourites?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">Is there a minimum fare on Taxi trips?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">How is the Taxi fare estimate displayed on the app calculated?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">What fare is charged as a starting metre?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">What rate is the charge rate per distance (kilometer charge)?</a></li>
+                <li class="list-group-item question">
+                  <a class="d-block" href="">Will I be responsible for paying Salik charges when the Taxi driver passes through Salik toll gates?</a>
+                </li>
+                <li class="list-group-item question"><a class="d-block" href="">What additional charges are added to the Taxi fare?</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- CARD 5 -->
-      <div class="card">
-        <h5 class="card-header" role="tab" id="headingFive">
-          <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-            <!-- <i class="material-icons pull-right">arrow_drop_down_circle</i> -->
-            <!-- CARD TITLE -->
-            Balance
-          </a>
-        </h5>
-        <!-- QUESTIONS OUTSIDE CARD -->
-        <ul class="list-group">
-          <li class="list-group-item"><a class="d-block" href="">How can I see my NOL balance?</a></li>
-          <li class="list-group-item"><a class="d-block" href="">How can I see my Salik account?</a></li>
-        </ul>
-      </div>
-      <!-- CARD 6 -->
-      <div class="card">
-        <h5 class="card-header" role="tab" id="headingSix">
-          <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-            <i class="material-icons pull-right">arrow_drop_down_circle</i>
-            <!-- CARD TITLE -->
-            Alarms
-          </a>
-        </h5>
-        <!-- QUESTIONS OUTSIDE CARD -->
-        <ul class="list-group">
-          <li class="list-group-item"><a class="d-block" href="">How do I set alarms to a certain trip?</a></li>
-          <li class="list-group-item"><a class="d-block" href="">How do I see all my alarms?</a></li>
-        </ul>
-        <!-- QUESTIONS INSIDE CARD -->
-        <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
-          <div class="card-body">
-            <ul class="list-group">
-              <li class="list-group-item"><a class="d-block" href="">How do I delete an alarm?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">What kind of notifications will I receive?</a></li>
-            </ul>
+        <!-- CARD 5 -->
+        <div class="card">
+          <h5 class="card-header category" role="tab" id="headingFive">
+            <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              <!-- <i class="material-icons pull-right">arrow_drop_down_circle</i> -->
+              <!-- CARD TITLE -->
+              Balance
+            </a>
+          </h5>
+          <!-- QUESTIONS OUTSIDE CARD -->
+          <ul class="list-group">
+            <li class="list-group-item question"><a class="d-block" href="">How can I see my NOL balance?</a></li>
+            <li class="list-group-item question"><a class="d-block" href="">How can I see my Salik account?</a></li>
+          </ul>
+        </div>
+        <!-- CARD 6 -->
+        <div class="card">
+          <h5 class="card-header category" role="tab" id="headingSix">
+            <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              <i class="material-icons pull-right">arrow_drop_down_circle</i>
+              <!-- CARD TITLE -->
+              Alarms
+            </a>
+          </h5>
+          <!-- QUESTIONS OUTSIDE CARD -->
+          <ul class="list-group">
+            <li class="list-group-item question"><a class="d-block" href="">How do I set alarms to a certain trip?</a></li>
+            <li class="list-group-item question"><a class="d-block" href="">How do I see all my alarms?</a></li>
+          </ul>
+          <!-- QUESTIONS INSIDE CARD -->
+          <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
+            <div class="card-body">
+              <ul class="list-group">
+                <li class="list-group-item question"><a class="d-block" href="">How do I delete an alarm?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">What kind of notifications will I receive?</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- CARD 7 -->
-      <div class="card">
-        <h5 class="card-header" role="tab" id="headingSeven">
-          <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-            <i class="material-icons pull-right">arrow_drop_down_circle</i>
-            <!-- CARD TITLE -->
-            Smart Car Rental - ekar
-          </a>
-        </h5>
-        <!-- QUESTIONS OUTSIDE CARD -->
-        <ul class="list-group">
-          <li class="list-group-item"><a class="d-block" href="">Who can rent an ekar vehicle?</a></li>
-          <li class="list-group-item"><a class="d-block" href="">Is ekar registration free of charge?</a></li>
-        </ul>
-        <!-- QUESTIONS INSIDE CARD -->
-        <div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
-          <div class="card-body">
-            <ul class="list-group">
-              <li class="list-group-item"><a class="d-block" href="">How much will it cost me to rent a car using ekar?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">What does this fee include?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">What do other charges include?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">How will I be charged?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">Are there any other charges/ penalties that I may incur?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">Is there a minimum duration for using an ekar car?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">What is the maximum duration of using an ekar car?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">Can I make multiple reservations?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">Can I rent a car but ask someone else to drive it?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">What happens if I commit a traffic violation?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">Where can I park my ekar car?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">Can I make my ekar reservations through S'hail directly?</a></li>
-              <li class="list-group-item">
-                <a class="d-block" href="">Since bookings/ reservations are made through the ekar app, would there be a chance that the car I selected is not available?</a>
-              </li>
-              <li class="list-group-item"><a class="d-block" href="">How to contact ekar Customer Support?</a></li>
-            </ul>
+        <!-- CARD 7 -->
+        <div class="card">
+          <h5 class="card-header category" role="tab" id="headingSeven">
+            <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              <i class="material-icons pull-right">arrow_drop_down_circle</i>
+              <!-- CARD TITLE -->
+              Smart Car Rental - ekar
+            </a>
+          </h5>
+          <!-- QUESTIONS OUTSIDE CARD -->
+          <ul class="list-group">
+            <li class="list-group-item question"><a class="d-block" href="">Who can rent an ekar vehicle?</a></li>
+            <li class="list-group-item question"><a class="d-block" href="">Is ekar registration free of charge?</a></li>
+          </ul>
+          <!-- QUESTIONS INSIDE CARD -->
+          <div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
+            <div class="card-body">
+              <ul class="list-group">
+                <li class="list-group-item question"><a class="d-block" href="">How much will it cost me to rent a car using ekar?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">What does this fee include?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">What do other charges include?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">How will I be charged?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">Are there any other charges/ penalties that I may incur?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">Is there a minimum duration for using an ekar car?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">What is the maximum duration of using an ekar car?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">Can I make multiple reservations?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">Can I rent a car but ask someone else to drive it?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">What happens if I commit a traffic violation?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">Where can I park my ekar car?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">Can I make my ekar reservations through S'hail directly?</a></li>
+                <li class="list-group-item question">
+                  <a class="d-block" href="">Since bookings/ reservations are made through the ekar app, would there be a chance that the car I selected is not available?</a>
+                </li>
+                <li class="list-group-item question"><a class="d-block" href="">How to contact ekar Customer Support?</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- CARD 8 -->
-      <div class="card">
-        <h5 class="card-header" role="tab" id="headingEight">
-          <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-            <i class="material-icons pull-right">arrow_drop_down_circle</i>
-            <!-- CARD TITLE -->
-            Smart Car Rental - Udrive
-          </a>
-        </h5>
-        <!-- QUESTIONS OUTSIDE CARD -->
-        <ul class="list-group">
-          <li class="list-group-item"><a class="d-block" href="">Who can rent a Udrive vehicle?</a></li>
-          <li class="list-group-item"><a class="d-block" href="">How much will it cost me to rent a car using Udrive?</a></li>
-        </ul>
-        <!-- QUESTIONS INSIDE CARD -->
-        <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight">
-          <div class="card-body">
-            <ul class="list-group">
-              <li class="list-group-item"><a class="d-block" href="">What does this price include?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">Does Udrive charge application fee?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">How will I be charged?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">What are the penalties that I may incur?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">Is there a minimum duration for using a Udrive car?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">What is the maximum duration of using a Udrive car?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">What happens if I commit a traffic violation?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">Where can I park my Udrive car?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">Can I make my Udrive reservations through S'hail directly?</a></li>
-              <li class="list-group-item">
-                <a class="d-block" href="">Since bookings/ reservations are made through the Udrive app, would there be a chance that the car I selected is not available?</a>
-              </li>
-              <li class="list-group-item"><a class="d-block" href="">How to contact Udrive Customer Support?</a></li>
-            </ul>
+        <!-- CARD 8 -->
+        <div class="card">
+          <h5 class="card-header category" role="tab" id="headingEight">
+            <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+              <i class="material-icons pull-right">arrow_drop_down_circle</i>
+              <!-- CARD TITLE -->
+              Smart Car Rental - Udrive
+            </a>
+          </h5>
+          <!-- QUESTIONS OUTSIDE CARD -->
+          <ul class="list-group">
+            <li class="list-group-item question"><a class="d-block" href="">Who can rent a Udrive vehicle?</a></li>
+            <li class="list-group-item question"><a class="d-block" href="">How much will it cost me to rent a car using Udrive?</a></li>
+          </ul>
+          <!-- QUESTIONS INSIDE CARD -->
+          <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight">
+            <div class="card-body">
+              <ul class="list-group">
+                <li class="list-group-item question"><a class="d-block" href="">What does this price include?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">Does Udrive charge application fee?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">How will I be charged?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">What are the penalties that I may incur?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">Is there a minimum duration for using a Udrive car?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">What is the maximum duration of using a Udrive car?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">What happens if I commit a traffic violation?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">Where can I park my Udrive car?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">Can I make my Udrive reservations through S'hail directly?</a></li>
+                <li class="list-group-item question">
+                  <a class="d-block" href="">Since bookings/ reservations are made through the Udrive app, would there be a chance that the car I selected is not available?</a>
+                </li>
+                <li class="list-group-item question"><a class="d-block" href="">How to contact Udrive Customer Support?</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- CARD 9 -->
-      <div class="card">
-        <h5 class="card-header" role="tab" id="headingNine">
-          <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-            <i class="material-icons pull-right">arrow_drop_down_circle</i>
-            <!-- CARD TITLE -->
-            Others
-          </a>
-        </h5>
-        <!-- QUESTIONS OUTSIDE CARD -->
-        <ul class="list-group">
-          <li class="list-group-item"><a class="d-block" href="">Which Taxi booking services are available for People of Determination?</a></li>
-          <li class="list-group-item"><a class="d-block" href="">Where can I buy a Tram ticket or card?</a></li>
-        </ul>
-        <!-- QUESTIONS INSIDE CARD -->
-        <div id="collapseNine" class="collapse" role="tabpanel" aria-labelledby="headingNine">
-          <div class="card-body">
-            <ul class="list-group">
-              <li class="list-group-item"><a class="d-block" href="">Which Tram stations are integrated with Metro?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">I am leaving the country, how do I claim my Salik account balance?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">I have changed my mobile number from the one listed on my Salik account, what do I do?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">Where are the Salik Gates in Dubai?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">Where are the stations of Dubai Ferry?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">Is it possible to use mobile on the underground sections of the Dubai Metro?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">What is a Nol Card?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">Where can I use my Nol Card?</a></li>
-              <li class="list-group-item"><a class="d-block" href="">Where can I buy and top up my Nol Card?</a></li>
-            </ul>
+        <!-- CARD 9 -->
+        <div class="card">
+          <h5 class="card-header category" role="tab" id="headingNine">
+            <a class="collapsed d-block" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+              <i class="material-icons pull-right">arrow_drop_down_circle</i>
+              <!-- CARD TITLE -->
+              Others
+            </a>
+          </h5>
+          <!-- QUESTIONS OUTSIDE CARD -->
+          <ul class="list-group">
+            <li class="list-group-item question"><a class="d-block" href="">Which Taxi booking services are available for People of Determination?</a></li>
+            <li class="list-group-item question"><a class="d-block" href="">Where can I buy a Tram ticket or card?</a></li>
+          </ul>
+          <!-- QUESTIONS INSIDE CARD -->
+          <div id="collapseNine" class="collapse" role="tabpanel" aria-labelledby="headingNine">
+            <div class="card-body">
+              <ul class="list-group">
+                <li class="list-group-item question"><a class="d-block" href="">Which Tram stations are integrated with Metro?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">I am leaving the country, how do I claim my Salik account balance?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">I have changed my mobile number from the one listed on my Salik account, what do I do?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">Where are the Salik Gates in Dubai?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">Where are the stations of Dubai Ferry?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">Is it possible to use mobile on the underground sections of the Dubai Metro?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">What is a Nol Card?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">Where can I use my Nol Card?</a></li>
+                <li class="list-group-item question"><a class="d-block" href="">Where can I buy and top up my Nol Card?</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
+      </ul>
     </div>
     <!-- SCRIPTS -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/scripts.js"></script>
+    <!-- LIST JS Search -->
+    <script src="./js/list.min.js"></script>
+    <script>
+      var options = {
+        valueNames: ['category', 'question']
+      };
+      var faqSearch = new List('faqList', options);
+    </script>
   </body>
 </html>
