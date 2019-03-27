@@ -72,7 +72,7 @@ h5.card-header a {
   border: 1px solid #d3ddde;
   border-radius: 4px;
   box-shadow: 4px 4px 10px #d3ddde;
-  margin: 15px;
+  margin: 15px 0;
   text-align: right;
 }
 .card-body {
