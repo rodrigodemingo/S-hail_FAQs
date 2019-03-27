@@ -68,7 +68,6 @@ h5.card-header a {
 }
 .card {
   break-inside: avoid;
-  /* padding: 24px; */
   border: 1px solid #d3ddde;
   border-radius: 4px;
   box-shadow: 4px 4px 10px #d3ddde;
