@@ -3,6 +3,10 @@
 /* ************************ */
 
 /* COLORS */
+body {
+  background-color: #f1f1f1;
+}
+
 .bg-primary {
   background-color: #2298e1 !important;
 }
