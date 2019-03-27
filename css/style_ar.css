@@ -6,7 +6,10 @@
 body {
   background-color: #f1f1f1;
 }
-
+p {
+  text-align: justify;
+  margin-top: 1rem !important;
+}
 .bg-primary {
   background-color: #2298e1 !important;
 }
