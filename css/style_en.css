@@ -12,6 +12,17 @@ p {
   text-align: justify;
   margin-top: 1rem !important;
 }
+
+table {
+  font-size: 0.8rem !important;
+  background-color: #fff !important;
+}
+
+.table thead th {
+  vertical-align: middle !important;
+  text-align: center;
+}
+
 .bg-primary {
   background-color: #2298e1 !important;
 }

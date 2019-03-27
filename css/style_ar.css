@@ -18,6 +18,16 @@ p {
   float: left;
 }
 
+table {
+  text-align: right !important;
+  font-size: 0.8rem !important;
+  background-color: #fff !important;
+}
+.table thead th {
+  vertical-align: middle !important;
+  text-align: center;
+}
+
 a,
 a:hover,
 a:active,
