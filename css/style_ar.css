@@ -2,14 +2,34 @@
 /* ARABIC CSS STYLES */
 /* ************************ */
 
-/* COLORS */
 body {
   background-color: #f1f1f1;
+  font-size: 0.9rem;
 }
+
+.sticky-top {
+  position: -webkit-fixed;
+  position: fixed;
+  width: 100%;
+}
+
+#faqList .container-fluid {
+  padding-top: 70px;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+}
+
 p {
   text-align: justify;
   margin-top: 1rem !important;
   color: #757575;
+  font-size: 0.9rem;
 }
 .bg-primary {
   background-color: #2298e1 !important;
@@ -39,7 +59,7 @@ a:focus {
 
 /* HEADER */
 .logo {
-  display: block;
+  display: none;
   margin: 0 auto;
   padding: 15px;
 }
@@ -78,7 +98,7 @@ h5.card-header a {
 .card-header i.material-icons {
   transition: 0.3s transform ease-in-out;
   transform: rotate(180deg);
-  color: #757575;
+  color: #2298e1;
 }
 .card-header .collapsed i.material-icons {
   transform: rotate(0deg);
