@@ -20,10 +20,8 @@
     <link href="../css/style_en.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div class="logo"><img src="../images/logo.svg" alt="" /></div>
-    </nav>
-    <div class="container-fluid mt-3">
       <!-- BACK BUTTON -->
       <div onclick="goBack()">
         <h4>
@@ -31,9 +29,11 @@
           <i class="fas fa-chevron-left back-button"></i>
           <!-- TITLE -->
           <span class="ml-2">Who can rent an ekar vehicle?</span>
-        </h4>
+         </h4>
       </div>
-      <!-- CONTENT -->
+    </nav>
+    <!-- CONTENT -->
+    <div class="container-fluid mt-3">
       <p>
         You need to be registered with ekar in order for you to be able to book a vehicle. For registration purposes, you must be over 21 years of age and hold a valid Emirates
         driver's license for at least a year or a valid international license for at least two years. You can register online at: <a href="https://www.ekar.ae" target="_blank">www.ekar.ae</a>

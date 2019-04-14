@@ -9,16 +9,6 @@ body {
   font-size: 0.9rem;
 }
 
-.sticky-top {
-  position: -webkit-fixed;
-  position: fixed;
-  width: 100%;
-}
-
-#faqList .container-fluid {
-  padding-top: 70px;
-}
-
 h4 {
   font-size: 1.3rem;
 }
@@ -131,5 +121,5 @@ h5.card-header a {
 /* ******************** */
 .back-button {
   font-size: 1.3rem;
-  color: #000;
+  color: #fff;
 }

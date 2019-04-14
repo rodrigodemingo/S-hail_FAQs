@@ -20,10 +20,8 @@
     <link href="../css/style_en.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div class="logo"><img src="../images/logo.svg" alt="" /></div>
-    </nav>
-    <div class="container-fluid mt-3">
       <!-- BACK BUTTON -->
       <div onclick="goBack()">
         <h4>
@@ -31,9 +29,11 @@
           <i class="fas fa-chevron-left back-button"></i>
           <!-- TITLE -->
           <span class="ml-2">How do I book a Taxi for a later point in time?</span>
-        </h4>
+         </h4>
       </div>
-      <!-- CONTENT -->
+    </nav>
+    <!-- CONTENT -->
+    <div class="container-fluid mt-3">
       <p>
         To book a Taxi / Limo for a later point in time, you can change the time on the first screen (Trip Planning). After entering start, point and destination click on the blue
         "Departure now" to select date and time of your departure. Now you can follow the usual steps to book a Taxi for this specific time.

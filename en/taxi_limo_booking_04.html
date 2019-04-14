@@ -20,10 +20,8 @@
     <link href="../css/style_en.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div class="logo"><img src="../images/logo.svg" alt="" /></div>
-    </nav>
-    <div class="container-fluid mt-3">
       <!-- BACK BUTTON -->
       <div onclick="goBack()">
         <h4>
@@ -31,9 +29,11 @@
           <i class="fas fa-chevron-left back-button"></i>
           <!-- TITLE -->
           <span class="ml-2">How do I book an Uber and Careem for now?</span>
-        </h4>
+         </h4>
       </div>
-      <!-- CONTENT -->
+    </nav>
+    <!-- CONTENT -->
+    <div class="container-fluid mt-3">
       <p>
         To book an Uber or Careem, enter your starting point and destination on the first screen (Trip Planner) and press search. Select the Taxi icon (right next to the public
         transport icon that is selected by default). You can choose whether you would like to book an Uber or Careem.

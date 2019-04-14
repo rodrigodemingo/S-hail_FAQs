@@ -20,10 +20,8 @@
     <link href="../css/style_en.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div class="logo"><img src="../images/logo.svg" alt="" /></div>
-    </nav>
-    <div class="container-fluid mt-3">
       <!-- BACK BUTTON -->
       <div onclick="goBack()">
         <h4>
@@ -31,9 +29,11 @@
           <i class="fas fa-chevron-left back-button"></i>
           <!-- TITLE -->
           <span class="ml-2">What fare is charged as a starting metre?</span>
-        </h4>
+         </h4>
       </div>
-      <!-- CONTENT -->
+    </nav>
+    <!-- CONTENT -->
+    <div class="container-fluid mt-3">
       <p>
         Starting metre fare depends on the time of day in which the vehicle is hailed, the type of hired vehicle and the starting location of the trip. Please refer to the table
         below for starting metre fares:
