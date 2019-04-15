@@ -56,8 +56,10 @@ a:focus {
   color: #757575;
 }
 
-.container-fluid {
+body#faqList .container-fluid {
   color: #757575;
+  position: relative;
+  top: 118px;
 }
 
 /* HEADER */
@@ -71,6 +73,9 @@ a:focus {
   display: block;
 }
 
+.fixed-top {
+  position: fixed;
+}
 /* SEARCH BAR */
 .no-border {
   color: #495057;
