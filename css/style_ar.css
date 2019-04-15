@@ -49,6 +49,10 @@ a:focus {
   color: #757575;
 }
 
+.container-fluid {
+  color: #757575;
+}
+
 /* HEADER */
 .logo {
   display: none;
