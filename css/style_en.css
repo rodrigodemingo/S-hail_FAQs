@@ -36,6 +36,10 @@ table {
   text-align: center;
 }
 
+td, th, tr {
+  color: #757575;
+}
+
 .bg-primary {
   background-color: #2298e1 !important;
 }

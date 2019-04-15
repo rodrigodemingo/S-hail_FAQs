@@ -41,6 +41,10 @@ table {
   text-align: center;
 }
 
+td, th, tr {
+  color: #757575;
+}
+
 a,
 a:hover,
 a:active,
