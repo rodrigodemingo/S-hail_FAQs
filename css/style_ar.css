@@ -141,6 +141,8 @@ h5.card-header a {
 .back-button {
   font-size: 1.3rem;
   color: #fff;
+  top: -2px;
+  position: relative;
 }
 
 span.mr-2.text-white {
