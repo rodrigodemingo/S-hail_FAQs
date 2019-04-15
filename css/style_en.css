@@ -58,6 +58,11 @@ a:focus {
   margin: 0 auto;
   padding: 15px;
 }
+
+#faqList .logo {
+  display: block;
+}
+
 /* SEARCH BAR */
 .no-border {
   color: #495057;
