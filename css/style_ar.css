@@ -63,7 +63,7 @@ body#faqList .container-fluid {
 .logo {
   display: none;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0 0 12px;
 }
 
 #faqList .logo {
