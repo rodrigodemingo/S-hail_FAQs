@@ -59,7 +59,7 @@ a:focus {
 body#faqList .container-fluid {
   color: #757575;
   position: relative;
-  top: 100px;
+  top: 54px;
 }
 
 /* HEADER */
@@ -67,10 +67,6 @@ body#faqList .container-fluid {
   display: none;
   margin: 0 auto;
   padding: 0 0 12px;
-}
-
-#faqList .logo {
-  display: block;
 }
 
 .fixed-top {
