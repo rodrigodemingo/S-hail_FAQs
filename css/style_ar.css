@@ -20,7 +20,6 @@ h5 {
 p {
   text-align: justify;
   margin-top: 1rem !important;
-  color: #757575;
   font-size: 0.9rem;
 }
 .bg-primary {
@@ -41,7 +40,7 @@ table {
   text-align: center;
 }
 
-td, th, tr {
+td, th, tr, p, ol {
   color: #757575;
 }
 
