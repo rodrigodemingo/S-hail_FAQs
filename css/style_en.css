@@ -92,6 +92,9 @@ ul {
   margin-bottom: 2px !important;
   padding: 0;
 }
+.container-fluid ol{
+	clear: both;
+}
 .card-header:first-child {
   border-bottom: none;
 }
@@ -144,4 +147,7 @@ h5.card-header a {
 span.ml-2.text-white {
   display: inline-block;
   width: 92%;
+}
+#answers picture img{
+  margin-top: 10px;
 }

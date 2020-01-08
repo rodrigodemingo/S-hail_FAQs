@@ -29,6 +29,9 @@ p {
 .pull-left {
   float: left;
 }
+.clearBoth{
+  clear: both;
+}
 
 table {
   text-align: right !important;
@@ -89,6 +92,14 @@ body#faqList .container-fluid {
 ul {
   margin-bottom: 2px !important;
   padding: 0;
+}
+.container-fluid ol{
+	clear: both;
+}
+.container-fluid ol li{
+	clear: both;
+  float: right;
+  text-align: right;
 }
 .card-header:first-child {
   border-bottom: none;
@@ -160,4 +171,7 @@ input {
 
 .pull-right {
   float: right;
+}
+#answers picture img{
+  margin-top: 10px;
 }
