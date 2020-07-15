@@ -1,177 +1,220 @@
 /* ************************ */
+
+
 /* ARABIC CSS STYLES */
+
+
 /* ************************ */
 
 body {
-  background-color: #f1f1f1;
-  font-size: 0.9rem;
+    background-color: #f1f1f1;
+    font-size: 0.9rem;
+    text-align: right;
 }
 
 h4 {
-  font-size: 1.2rem;
-  margin: 0;
-  padding: 0.5rem 0;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0.5rem 0;
 }
 
 h5 {
-  font-size: 1.1rem;
+    font-size: 1.1rem;
 }
 
 p {
-  text-align: justify;
-  margin-top: 1rem !important;
-  font-size: 0.9rem;
+    text-align: justify;
+    margin-top: 1rem !important;
+    font-size: 0.9rem;
 }
+
 .bg-primary {
-  background-color: #2298e1 !important;
+    background-color: #2298e1 !important;
 }
 
 .pull-left {
-  float: left;
+    float: left;
 }
-.clearBoth{
-  clear: both;
+
+.clearBoth {
+    clear: both;
 }
 
 table {
-  text-align: right !important;
-  font-size: 0.8rem !important;
-  background-color: #fff !important;
-}
-.table thead th {
-  vertical-align: middle !important;
-  text-align: center;
+    text-align: right !important;
+    font-size: 0.8rem !important;
+    background-color: #fff !important;
 }
 
-td, th, tr, p, ol {
-  color: #757575;
+.table thead th {
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+td,
+th,
+tr,
+p,
+ol {
+    color: #757575;
 }
 
 a,
 a:hover,
 a:active,
 a:focus {
-  text-decoration: none;
-  color: #757575;
+    text-decoration: none;
+    color: #757575;
 }
 
 body#faqList .container-fluid {
-  color: #757575;
-  position: relative;
-  top: 54px;
+    color: #757575;
+    position: relative;
+    top: 54px;
 }
 
+
 /* HEADER */
+
 .logo {
-  display: none;
-  margin: 0 auto;
-  padding: 0 0 12px;
+    display: none;
+    margin: 0 auto;
+    padding: 0 0 12px;
 }
 
 .fixed-top {
-  position: fixed;
+    position: fixed;
 }
 
+
 /* SEARCH BAR */
+
 .no-border {
-  color: #495057;
-  background-color: #fff;
-  border: 1px solid #fff;
-  border-radius: 1rem;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 1rem;
 }
+
 .form-control:focus {
-  border: none;
-  box-shadow: none;
+    border: none;
+    box-shadow: none;
 }
 
 .text-dark {
-  color: #757575 !important;
+    color: #757575 !important;
 }
 
+
 /* CARD */
+
 ul {
-  margin-bottom: 2px !important;
-  padding: 0;
+    margin-bottom: 2px !important;
+    padding: 0;
 }
-.container-fluid ol{
-	clear: both;
+
+.container-fluid ol {
+    clear: both;
 }
-.container-fluid ol li{
-	clear: both;
-  float: right;
-  text-align: right;
+
+.container-fluid ol li {
+    clear: both;
+    float: right;
+    text-align: right;
 }
+
 .card-header:first-child {
-  border-bottom: none;
+    border-bottom: none;
 }
+
 h5.card-header a {
-  color: #000;
+    color: #000;
 }
+
 .card-header {
-  padding: 1rem;
-  background: none;
-  /* border-bottom: none; */
+    padding: 1rem;
+    background: none;
+    /* border-bottom: none; */
 }
+
 .card-header i.material-icons {
-  transition: 0.3s transform ease-in-out;
-  transform: rotate(180deg);
-  color: #2298e1;
+    transition: 0.3s transform ease-in-out;
+    transform: rotate(180deg);
+    color: #2298e1;
 }
+
 .card-header .collapsed i.material-icons {
-  transform: rotate(0deg);
-  color: #d7d7d7;
+    transform: rotate(0deg);
+    color: #d7d7d7;
 }
+
 .card {
-  break-inside: avoid;
-  border: 1px solid #dedede;
-  border-radius: 4px;
-  box-shadow: 4px 4px 10px #dedede;
-  margin: 15px 0;
-  text-align: right;
+    break-inside: avoid;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px #dedede;
+    margin: 15px 0;
+    text-align: right;
 }
+
 .card-body {
-  padding: 0;
+    padding: 0;
 }
+
 .list-group-item {
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
 }
+
 .list-group-item:first-child {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
+
+
 /* ******************** */
+
+
 /* QUESTIONS PAGE */
+
+
 /* ******************** */
+
 .back-button {
-  font-size: 1.3rem;
-  color: #fff;
-  top: -2px;
-  position: relative;
+    font-size: 1.3rem;
+    color: #fff;
+    top: -2px;
+    position: relative;
 }
 
 span.mr-2.text-white {
-  display: inline-block;
-  width: 92%;
+    display: inline-block;
+    width: 92%;
 }
 
+
 /* ******************** */
+
+
 /* ADDING ARABIC CSS BELOW */
+
+
 /* ******************** */
 
 h4 span {
-  top: -5px;
-  position: relative;
+    top: -5px;
+    position: relative;
 }
 
 input {
-  direction: rtl;
+    direction: rtl;
 }
 
 .pull-right {
-  float: right;
+    float: right;
 }
-#answers picture img{
-  margin-top: 10px;
+
+#answers picture img {
+    margin-top: 10px;
 }
