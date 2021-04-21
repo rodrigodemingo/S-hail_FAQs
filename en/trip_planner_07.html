@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+
+  <title>How to use "My Dubai" places?</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="../css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../css/style_en.css" rel="stylesheet" />
+</head>
+
+<body id="answers">
+  <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="logo"><img src="../images/logo.svg" alt="" /></div>
+    <!-- BACK BUTTON -->
+    <div class="w-100" onclick="goBack()">
+      <h4>
+        <!-- BACK ICON -->
+        <i class="fas fa-chevron-left back-button"></i>
+        <!-- TITLE -->
+        <span class="ml-2 text-white">How to use "My Dubai" places?</span>
+      </h4>
+    </div>
+  </nav>
+  <!-- CONTENT -->
+  <div class="container-fluid mt-3">
+    <p>My Dubai section helps you to get around Dubai main touristic attraction in the fastest and simplest way.</p>
+    <p>You can use this section in two new ways:</p>
+    <p>
+      <ol type="1">
+      <li>Just tap on one of the images to plan a route from your current location.</li>
+      <picture>
+        <img class="img-fluid img-thumbnail" src="../images/my_dubai_01.jpg" style="width: 20rem;" />
+      </picture>
+      <li>Drag and drop from any image to any location on the screen to plan a journey.</li>
+      <picture>
+        <img class="img-fluid img-thumbnail" src="../images/my_dubai_02.jpg" style="width: 20rem;" />
+      </picture>
+      </ol>
+    </p>
+  </div>
+  <!-- SCRIPTS -->
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/scripts.js"></script>
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+
+</html>
